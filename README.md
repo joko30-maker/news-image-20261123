@@ -8,25 +8,39 @@ My entry to the make.fun bounty [news-image-20261123](https://make.fun/bounty/ne
 one image that sums up the world news of Monday 23 November 2026.
 
 The image is a one-page newspaper front page, drawn as an HTML page (hand-written markup and inline
-SVG icons) and rendered to a 1024×1024 PNG of about 230 KB:
+SVG icons) and rendered to a 1024×1024 PNG of about 270 KB:
 
 - **Masthead and date**, named in full: *Monday, 23 November 2026*, with a world-clock strip
-  (Tokyo, Jakarta, Dubai, Brussels, London, New York) showing the day arriving across time zones.
+  (Tokyo, Jakarta, Dubai, Brussels, London, New York) showing the day closing across time zones.
 - **Lead story**: COP31 ends without a deal — the climate summit in Antalya closes deadlocked over
   fossil-fuel language.
-- **Ten more stories across seven regions**, each with its own small illustrated card: tankers struck
-  near Hormuz; Asia markets slide on the AI selloff; a drone levels a Kyiv-region apartment block;
-  the search at the burnt Cikande candy factory in Banten; BepiColombo enters orbit around Mercury;
-  Alcaraz wins the ATP Finals; South Korea's education minister resigns; Belgium's national strike
-  grounds its flights; settlers torch cars in the West Bank; Shuri Castle's main hall rises again.
-- **A "still to come today" strip** for the day's scheduled news (the expected FIFA announcement on
-  the 2035 Women's World Cup host, Trump's Justice Department remarks, US PMI data), kept separate
-  from what has already been reported, and a footer noting where tolls on breaking stories were
-  still moving.
+- **36 more stories across nine regions**, each with its own small illustrated card:
+  tankers struck near Hormuz; Asia markets slide and Seoul readies a rescue fund; the Dymer toll
+  reaches 11; the Cikande toll reaches at least 24; BepiColombo orbits Mercury; Alcaraz wins the
+  ATP Finals; South Korea's education minister resigns; Belgium's national strike grounds its
+  flights; settler car attacks reported in the West Bank; Shuri Castle rises again; Huang returns
+  as Nvidia CEO; the Pentagon rebukes Canada; Burnham sells his EU reset; the EU proposes its
+  22nd sanctions package; FIFA names the 2031 and 2035 Women's World Cup hosts; NATO's Rutte warns
+  Russia's war machine won't stop; Ukraine hits 16 missile launchers; drones hit a Russian
+  refinery; Zelensky confirms a Russian warship sunk off Libya; Bolsonaro is diagnosed with
+  pneumonia; the COP31 blame game erupts in Australia; India gives Nepal a $1.62bn package; China
+  sentences an official to death for spying; the US blacklists a Singapore chip firm; the
+  Philippines grounds a fire-hit ferry; Hong Kong orders fire reform; the US sanctions Iran's
+  shadow banking network; Iran vows to break the blockade; Steinmeier starts an Africa tour;
+  CrowdStrike buys Zscaler for $43.9bn; HPE beats earnings and raises its outlook; NASA briefs the
+  Cygnus cargo flight; Brentford thrash Everton 4–0; the Commanders stun the Bengals 22–20; the
+  GTA VI album goes deluxe; Spielberg is to direct his first Western.
+- **A regions strip** naming all nine regions covered (North America, Latin America, Europe,
+  Ukraine, Middle East, Asia-Pacific, South Asia, Africa, Oceania) and a footer noting where tolls
+  on breaking stories were still moving.
+
+Every story was checked against its source article's own text to confirm it happened, or was first
+reported, on Monday 23 November 2026; where a toll was still moving it is phrased as a toll update
+or with "at least".
 
 ## Files
 
 - `main.ts` — copies `entry.png` to `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR`), unchanged on
   every run.
-- `entry.png` — the picture: 1024×1024, about 230 KB, well inside the gate's 1 MiB limit.
+- `entry.png` — the picture: 1024×1024, about 270 KB, well inside the gate's 1 MiB limit.
 - `LICENSE` — MIT.
